@@ -7,25 +7,18 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "paleBlue": "hsl(243, 100%, 93%)",
-        "grayishBlue": "hsl(229, 7%, 55%)",
-        "darkBlue": "hsl(228, 56%, 26%)",
-        "veryDarkBlue": "hsl(229, 57%, 11%)",
-        "primaryGradient": " from hsl(6, 100%, 80%) to hsl(335, 100%, 65%)",
+        "veryDarkMagenta": "hsl(300, 43%, 22%)",
+        "softPink": "hsl(333, 80%, 67%)",
+        "darkGrayishMagenta": "hsl(303, 10%, 53%)",
+        "lightGrayishMagenta": "hsl(229, 57%, 11%)",        
       },
       fontFamily: {
-        body: ["Raleway, sans-serif"],
-      },
-      backgroundImage: {
-        "desktop": "url(./public/images/bg-desktop.png)",
-        "mobile": "url(./public/images/bg-mobile.png)"
-      },
+        body: ["League Spartan, sans-serif"],
+      },      
       borderRadius: {
         'large' : '130px',
       },
-      spacing: {
-        '600px': '600px',
-      }
+      
     },
   },
   plugins: [],
